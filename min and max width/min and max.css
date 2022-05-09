@@ -1,0 +1,24 @@
+p {
+  border: 5px solid red;
+  /* width: 500px; */
+  min-width: 800px;
+  max-width: 1000x;
+}
+
+/* =======================================
+   ===== NOTES ON min AND max WIDTH ======
+   ======================================= 
+
+   ?min-width 
+   --- for example; min-width: 500px;
+   --- it means that the minimum height the width can shrink is only 
+   500px and after it crosses that limit it can no further shrink. 
+
+
+   ?max-width 
+   --- for example; max-width: 800px;
+   --- it means that the width can only have a maximum of 800px it can
+   shrink to its minimum width but cannot get further shrank or maximized
+   beyond its already provided width.
+
+*/
