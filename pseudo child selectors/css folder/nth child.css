@@ -1,0 +1,38 @@
+p:nth-child(2) {
+  /**this won't select Piggy*/
+
+  color: red;
+}
+
+p:nth-of-type(2) {
+  /**this will select Piggy*/
+
+  color: blue;
+}
+
+/* =======================================
+   ===== NOTES ON PSEUDO SELECTORS =======
+   ======================================= */
+
+/* 
+?element:nth-child(argument)
+
+-- for example; p:nth-child(1), it means that it will select the 1st 
+child of the p parent element. But if the markup consists of other
+elements above the paragraph element then it counts it as its child 
+too so it doesn't select that other element as it isn't paragraph tag. 
+
+-- it must be used only under a single tag else it counts other also as
+its element, but the only difference is if it cannot find the specified
+parent element's child it won't add the css to it.
+
+
+?element:nth-of-type(argument)
+
+-- for example; p:nth-of-type(1), it is an obedient pseudo selector as
+it counts only the children inside the specified tag element and assigns
+the css properties.
+
+-- this is very reliable selector instead of :nth-child().
+
+*/
