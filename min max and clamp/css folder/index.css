@@ -27,6 +27,7 @@ body {
   padding: 3em;
   box-shadow: 0 0 3em rbga(0, 0, 0, 0.15);
   width: 70%;
+  max-width: 800px;
 }
 
 h2 {
@@ -34,3 +35,7 @@ h2 {
   margin: 0 0 0.5em;
   font-weight: 900;
 }
+
+/* p:nth-of-type(2) {
+  color: red;
+} */
