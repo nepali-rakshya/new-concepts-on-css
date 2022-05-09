@@ -1,0 +1,26 @@
+p {
+  border: 5px solid red;
+  /* width: 500px; */
+  /* min-width: 500px; */
+  max-width: 200px;
+  max-height: 800px;
+  min-height: 500px;
+}
+
+/* =======================================
+   ===== NOTES ON min AND max HEIGHT =====
+   ======================================= 
+
+   ?min-height
+   --- for example; min-height: 500px;
+   --- it means that the height can only shrink up to its minimum height 
+   500px and after it crosses that limit it can no further shrink. 
+
+
+   ?max-height 
+   --- for example; max-height: 800px;
+   --- it means that the height can only have a maximum of 800px it can
+   shrink to its minimum height but cannot get further shrank or maximized
+   beyond its already provided height.
+
+*/
